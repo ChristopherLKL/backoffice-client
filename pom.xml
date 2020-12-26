@@ -1,0 +1,24 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>eu.christopherlee.admin</groupId>
+	<artifactId>backoffice-client</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+
+	<properties>
+		<slf4j.version>1.7.30</slf4j.version>
+		<!--mysqldb.version>8.0.20</mysqldb.version>
+		<spring.version>5.2.6.RELEASE</spring.version>
+		<jackson.version>2.11.0</jackson.version>
+		<jersey.version>2.31</jersey.version-->
+	</properties>
+
+	<dependencies>
+		<!-- Dépendances du Logeur -->
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-log4j12</artifactId>
+			<version>${slf4j.version}</version>
+		</dependency>
+	</dependencies>
+</project>
