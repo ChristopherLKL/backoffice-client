@@ -17,6 +17,7 @@ public class Device {
 	private String fwId;
 	private boolean isSameRegion;
 	private int status;
+	private int accountId;
 
 	public String getDeviceType() {
 		return deviceType;
@@ -144,5 +145,13 @@ public class Device {
 
 	public void setStatus(int status) {
 		this.status = status;
+	}
+
+	public int getAccountId() {
+		return accountId;
+	}
+
+	public void setAccountId(int accountId) {
+		this.accountId = accountId;
 	}
 }
