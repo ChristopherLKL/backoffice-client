@@ -1,6 +1,7 @@
 package eu.christopherlee.admin.tplink.model;
 
 public class Device {
+	private DeviceState deviceState;
 	private String deviceType;
 	private int role;
 	private String fwVer;
@@ -18,6 +19,14 @@ public class Device {
 	private boolean isSameRegion;
 	private int status;
 	private int accountId;
+
+	public DeviceState getDeviceState() {
+		return deviceState;
+	}
+
+	public void setDeviceState(DeviceState deviceState) {
+		this.deviceState = deviceState;
+	}
 
 	public String getDeviceType() {
 		return deviceType;

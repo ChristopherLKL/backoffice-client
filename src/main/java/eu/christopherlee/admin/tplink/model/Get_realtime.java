@@ -12,6 +12,7 @@ public class Get_realtime {
 	private int power_mw;
 	private int total_wh;
 	private Date startTime;
+	private String startTimeStr;
 
 	public float getCurrent() {
 		return current;
@@ -85,4 +86,11 @@ public class Get_realtime {
 		this.startTime = startTime;
 	}
 
+	public String getStartTimeStr() {
+		return startTimeStr;
+	}
+
+	public void setStartTimeStr(String startTimeStr) {
+		this.startTimeStr = startTimeStr;
+	}
 }
