@@ -13,4 +13,5 @@ public interface BackofficeService {
 	Account getTpLinkAccount();
 	List<Device> getTpLinkDevices(int accountId);
 	List<DeviceState> getTpLinkDeviceStates(int accountId, String deviceId, Period period);
+	List<DeviceState> getTpLinkCurrentDevicesState(int accountId);
 }
