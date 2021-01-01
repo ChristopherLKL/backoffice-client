@@ -1,6 +1,7 @@
 package eu.christopherlee.admin.tplink.model;
 
 public class Device {
+	private String token;
 	private DeviceState deviceState;
 	private String deviceType;
 	private int role;
@@ -19,6 +20,14 @@ public class Device {
 	private boolean isSameRegion;
 	private int status;
 	private int accountId;
+
+	public String getToken() {
+		return token;
+	}
+
+	public void setToken(String token) {
+		this.token = token;
+	}
 
 	public DeviceState getDeviceState() {
 		return deviceState;

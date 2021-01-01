@@ -1,6 +1,19 @@
 package eu.christopherlee.admin.tplink.model;
 
 public class DeviceState {
+	public enum RelayState {
+		OFF(0), ON(1);
+		private int value;
+
+		private RelayState(int value) {
+			this.value = value;
+		}
+
+		public int getValue() {
+			return value;
+		}
+	}
+
 	private System system;
 	private Emeter emeter;
 
