@@ -1,6 +1,6 @@
 package eu.christopherlee.admin.tplink.model;
 
-public class Device {
+public class Device implements Comparable<Device> {
 	private String token;
 	private DeviceState deviceState;
 	private String deviceType;
@@ -171,5 +171,9 @@ public class Device {
 
 	public void setAccountId(int accountId) {
 		this.accountId = accountId;
+	}
+
+	public int compareTo(Device o) {
+		return this.getAlias().compareTo(o.getAlias());
 	}
 }
