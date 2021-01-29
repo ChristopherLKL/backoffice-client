@@ -3,6 +3,7 @@ package eu.christopherlee.admin.tplink.model;
 public class Get_sysinfo {
 	private String sw_ver;
 	private String hw_ver;
+	private String mic_type;
 	private String type;
 	private String model;
 	private String mac;
@@ -39,6 +40,14 @@ public class Get_sysinfo {
 
 	public void setHw_ver(String hw_ver) {
 		this.hw_ver = hw_ver;
+	}
+
+	public String getMic_type() {
+		return mic_type;
+	}
+
+	public void setMic_type(String mic_type) {
+		this.mic_type = mic_type;
 	}
 
 	public String getType() {
