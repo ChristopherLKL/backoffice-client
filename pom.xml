@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>eu.christopherlee.admin</groupId>
 	<artifactId>backoffice-client</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 
 	<properties>
 		<slf4j.version>1.7.30</slf4j.version>
